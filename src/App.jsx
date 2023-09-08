@@ -1,11 +1,9 @@
-import Detalhes from './components/Detalhes'
-import TipoDoSeguro from './components/TipoDoSeguro'
+import {Outlet} from 'react-router-dom'
 
 function App() {
   return(
     <>
-      <Detalhes/>
-      <TipoDoSeguro/>
+      <Outlet/>
     </>
   )
 }
