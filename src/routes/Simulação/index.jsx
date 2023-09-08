@@ -15,4 +15,5 @@ function Simulação() {
 
     )
 }
+
 export default Simulação
