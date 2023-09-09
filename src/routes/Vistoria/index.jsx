@@ -1,6 +1,11 @@
 
 export default function Vistoria(){
-
+    const enviarFotos = () =>{
+        alert ("Fotos enviadas com sucesso!")
+    }
+    const enviarVideos = () =>{
+        alert("Vídeos enviados com sucesso!")
+    }
     return(
         <main>
             <h1>Vistoria</h1>
@@ -27,7 +32,7 @@ export default function Vistoria(){
                 <li>Foto dos acessórios (se for visível): </li>
                 <input type="text" id="ftAcessorios" placeholder="Digite aqui"/>
             </ul>
-            <button type="button" id="enviaFotos" >Enviar</button>
+            <button type="button" id="enviaFotos" onClick={enviarFotos}>Enviar</button>
             </div>
             <div id="videosVistoria">
                 <h2>Videos</h2>
@@ -38,7 +43,7 @@ export default function Vistoria(){
                     <li>Vídeo mostrando com mais ênfase cada ponto chave que foi tirado foto:  </li>
                     <input type="text" id="vdPontoChave" placeholder="Digite aqui"/>
                 </ul>
-            <button type="button" id="enviaVideos" >Enviar</button>
+            <button type="button" id="enviaVideos" onClick={enviarVideos}>Enviar</button>
             </div>
             <div>
                 <h2>4º Etapa Conferir status de vistoria: </h2>
