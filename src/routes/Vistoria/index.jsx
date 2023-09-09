@@ -29,7 +29,21 @@ export default function Vistoria(){
             </ul>
             <button type="button" id="enviaFotos" >Enviar</button>
             </div>
-    
+            <div id="videosVistoria">
+                <h2>Videos</h2>
+                <p>Envie vídeos dos pontos chaves da sua bike listados abaixo: </p>
+                <ul>
+                    <li>Vídeo mostrando a bike completa: </li>
+                    <input type="text" id="vdBikeCompleta" placeholder="Digite aqui"/>
+                    <li>Vídeo mostrando com mais ênfase cada ponto chave que foi tirado foto:  </li>
+                    <input type="text" id="vdPontoChave" placeholder="Digite aqui"/>
+                </ul>
+            <button type="button" id="enviaVideos" >Enviar</button>
+            </div>
+            <div>
+                <h2>4º Etapa Conferir status de vistoria: </h2>
+                <p>Observação: neste momento, como ainda nào aprendemos a abrir a câmera e capturar a imagem, colocamos temporariamente a opção do formulário de pegar a foto da galeria - apenas para simulação.</p>
+            </div>
             
         </main>
     )
