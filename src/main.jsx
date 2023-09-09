@@ -7,6 +7,8 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Error from './routes/Error/index.jsx'
 import Detalhes from './routes/Detalhes/index.jsx'
 import TipoDoSeguro from './routes/TipoDoSeguro/index.jsx'
+import Vistoria from './routes/Vistoria/index.jsx'
+import ValidacaoVistoria from './routes/ValidacaoVistoria/index.jsx'
 
 const router = createBrowserRouter([
   {
@@ -21,6 +23,14 @@ const router = createBrowserRouter([
       {
         path: '/Home/IdentificarCliente/TipoDoSeguro',
         element: <TipoDoSeguro/>
+      },
+      {
+        path: '/Vistoria',
+        element: <Vistoria/>
+      },
+      {
+        path: '/Vistoria/Validacao',
+        element: <ValidacaoVistoria/>
       }
     ],
   }
