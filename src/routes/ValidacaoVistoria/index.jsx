@@ -1,4 +1,7 @@
 export default function ValidacaoVistoria(){
+    const conferir = () =>{
+        alert("Sua vistoria está em análise!")
+    }
     return(
         <main>
             <h1>Validação da Vistoria</h1>
@@ -9,6 +12,7 @@ export default function ValidacaoVistoria(){
                 Independemente do tipo de e-mail que você receber, lá você receberá informações de como prosseguir com a sua vistoria.
             </p>
             <p>Também é possível acompanhar o status da sua vistoria por aqui: </p>
+            <button type="button" onClick={conferir} >Conferir Status da Vistoria</button>
         </div>
         </main>
     )
