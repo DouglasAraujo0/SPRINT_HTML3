@@ -1,7 +1,7 @@
-function Index() {
+function Integrantes() {
     return(
         <>
-            
+        
         </>
     )
 }

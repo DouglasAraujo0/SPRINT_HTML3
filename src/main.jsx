@@ -4,6 +4,8 @@ import App from './App.jsx'
 import './index.css'
 
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import Index from './routes/Index/index.jsx'
+import Integrantes from './routes/Integrantes/index.jsx'
 import Error from './routes/Error/index.jsx'
 import Detalhes from './routes/Detalhes/index.jsx'
 import TipoDoSeguro from './routes/TipoDoSeguro/index.jsx'
