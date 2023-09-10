@@ -19,6 +19,10 @@ const router = createBrowserRouter([
     errorElement: <Error/>,
     children: [
       {
+        path: '/',
+        element: <Index/>
+      },
+      {
         path: '/Home/Detalhes',
         element: <Detalhes/>
       },
@@ -37,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: '/Integrantes',
         element: <Integrantes/>
+      },
+      {
+        path: '/Simulacao',
+        element: <Simulacao/>
       }
     ],
   }

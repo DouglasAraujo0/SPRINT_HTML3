@@ -3,9 +3,15 @@ import {Link} from 'react-router-dom'
 function Menu() {
     return(
         <nav>
-            <Link to='/Home/Detalhes'>Detalhes da solução</Link>
+            <Link to='/Detalhes'>Detalhes da solução</Link>
             <span> | </span>
-            <Link to='/Home/IdentificarCliente/TipoDoSeguro'>Identificação</Link>
+            <Link to='/IdentificarCliente/TipoDoSeguro'>Identificação</Link>
+            <span> | </span>
+            <Link to='/'>Simulação</Link>
+            <span> | </span>
+            <Link to='/Home/IdentificarCliente/TipoDoSeguro'>Totalmente Virtual</Link>
+            <span> | </span>
+            <Link to='/Home/IdentificarCliente/TipoDoSeguro'>Organograma</Link>
         </nav>
     )
 }
