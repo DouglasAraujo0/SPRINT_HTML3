@@ -1,4 +1,4 @@
-function Simulação() {
+function Simulacao() {
     return(
         <>
         <h1>Tecnobike</h1>

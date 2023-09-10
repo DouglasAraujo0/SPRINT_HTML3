@@ -7,11 +7,11 @@ function Menu() {
             <span> | </span>
             <Link to='/IdentificarCliente/TipoDoSeguro'>Identificação</Link>
             <span> | </span>
-            <Link to='/'>Simulação</Link>
+            <Link to='/Simulacao'>Simulação</Link>
             <span> | </span>
-            <Link to='/Home/IdentificarCliente/TipoDoSeguro'>Totalmente Virtual</Link>
+            <Link to='/'>Totalmente Virtual</Link>
             <span> | </span>
-            <Link to='/Home/IdentificarCliente/TipoDoSeguro'>Organograma</Link>
+            <Link to='/'>Organograma</Link>
         </nav>
     )
 }
