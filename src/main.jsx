@@ -33,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: '/Vistoria/Validacao',
         element: <ValidacaoVistoria/>
+      },
+      {
+        path: '/Integrantes',
+        element: <Integrantes/>
       }
     ],
   }
