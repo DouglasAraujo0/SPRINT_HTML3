@@ -9,6 +9,7 @@ import Detalhes from './routes/Detalhes/index.jsx'
 import TipoDoSeguro from './routes/TipoDoSeguro/index.jsx'
 import Vistoria from './routes/Vistoria/index.jsx'
 import ValidacaoVistoria from './routes/ValidacaoVistoria/index.jsx'
+import Organograma from './routes/organograma/index.jsx'
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: '/Vistoria/Validacao',
         element: <ValidacaoVistoria/>
+      },
+      {
+        path: '/organograma',
+        element: <Organograma/>
       }
     ],
   }
