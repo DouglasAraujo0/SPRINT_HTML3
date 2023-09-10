@@ -14,6 +14,7 @@ import Vistoria from './routes/Vistoria/index.jsx'
 import ValidacaoVistoria from './routes/ValidacaoVistoria/index.jsx'
 import TotalmenteVirtual from './routes/TotalmenteVirtual/index.jsx'
 
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -25,12 +26,16 @@ const router = createBrowserRouter([
         element: <Index/>
       },
       {
-        path: '/Home/Detalhes',
+        path: '/Detalhes',
         element: <Detalhes/>
       },
       {
-        path: '/Home/IdentificarCliente/TipoDoSeguro',
+        path: '/TipoDoSeguro',
         element: <TipoDoSeguro/>
+      },
+      {
+        path: '/IdentificarCliente',
+        element: <Identificar/>
       },
       {
         path: '/Vistoria',
@@ -51,6 +56,10 @@ const router = createBrowserRouter([
       {
         path: '/TotalmenteVirtual',
         element: <TotalmenteVirtual/>
+      },
+      {
+        path: '/TipoDoSeguro',
+        element: <TipoDoSeguro/>
       }
     ],
   }
