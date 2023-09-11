@@ -14,6 +14,7 @@ import TipoDoSeguro from './routes/TipoDoSeguro/index.jsx'
 import Vistoria from './routes/Vistoria/index.jsx'
 import ValidacaoVistoria from './routes/ValidacaoVistoria/index.jsx'
 import Integrantes from './routes/Integrantes/index.jsx'
+import Organograma from './routes/Organograma/index.jsx'
 
 const router = createBrowserRouter([
   {
@@ -56,6 +57,10 @@ const router = createBrowserRouter([
       {
         path: '/integrantes',
         element: <Integrantes/>
+      },
+      {
+        path: '/organograma',
+        element: <Organograma/>
       }
     ]
   }
