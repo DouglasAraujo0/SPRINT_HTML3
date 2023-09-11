@@ -15,6 +15,7 @@ import Vistoria from './routes/Vistoria/index.jsx'
 import ValidacaoVistoria from './routes/ValidacaoVistoria/index.jsx'
 import Integrantes from './routes/Integrantes/index.jsx'
 import Organograma from './routes/Organograma/index.jsx'
+import IdentificarClientes from './routes/IdentificarClientes/index.jsx'
 
 const router = createBrowserRouter([
   {
@@ -61,7 +62,12 @@ const router = createBrowserRouter([
       {
         path: '/organograma',
         element: <Organograma/>
+      },
+      {
+        path: '/IdentificarClientes',
+        element: <IdentificarClientes/>
       }
+      
     ]
   }
 ])
