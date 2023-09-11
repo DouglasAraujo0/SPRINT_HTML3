@@ -5,7 +5,7 @@ import './index.css'
 
 import Error from './routes/Error/index.jsx'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
-import Index from './routes/Index/Index.jsx'
+import Home from './routes/Home/index.jsx'
 import TotalmenteVirtual from './routes/TotalmenteVirtual/index.jsx'
 import Detalhes from './routes/Detalhes/index.jsx'
 import Simulacao from './routes/Simulacao/index.jsx'
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Index/>
+        element: <Home/>
       },
       {
         path: '/TotalmenteVirtual',
