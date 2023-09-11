@@ -9,6 +9,7 @@ import Home from './routes/Home/index.jsx'
 import TotalmenteVirtual from './routes/TotalmenteVirtual/index.jsx'
 import Detalhes from './routes/Detalhes/index.jsx'
 import Simulacao from './routes/Simulacao/index.jsx'
+import Identificacao from './routes/Identificacao/index.jsx'
 import TipoDoSeguro from './routes/TipoDoSeguro/index.jsx'
 import Vistoria from './routes/Vistoria/index.jsx'
 import ValidacaoVistoria from './routes/ValidacaoVistoria/index.jsx'
@@ -37,15 +38,19 @@ const router = createBrowserRouter([
         element: <Simulacao/>
       },
       {
-        path: '/simulacao/tipodoseguro',
+        path: '/simulacao/identificacao',
+        element: <Identificacao/>
+      },
+      {
+        path: '/simulacao/identificacao/tipodoseguro',
         element: <TipoDoSeguro/>
       },
       {
-        path: '/simulacao/tipodoseguro/vistoria',
+        path: '/simulacao/identificacao/tipodoseguro/vistoria',
         element: <Vistoria/>
       },
       {
-        path: '/simulacao/tipodoseguro/vistoria/validacaodavistoria',
+        path: '/simulacao/identificacao/tipodoseguro/vistoria/validacaodavistoria',
         element: <ValidacaoVistoria/>
       },
       {
@@ -61,3 +66,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <RouterProvider router={router}/>
   </React.StrictMode>,
 )
+

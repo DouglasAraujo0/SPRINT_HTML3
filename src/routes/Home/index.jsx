@@ -1,3 +1,6 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
 function Home() {
     return(
         <>
@@ -16,12 +19,12 @@ function Home() {
             
             <h2>Faça uma simulação aqui:</h2>
             <ul>
-                <li><Link to='/Simulacao'>Simulação</Link></li>
+                <li><Link to='/simulacao'>Simulação</Link></li>
                 <ul>
-                    <li><Link to='/Identificacao'>Identificação do cliente</Link></li>
-                    <li><Link to='/TipoDoSeguro'>Tipo do Seguro</Link></li>
-                    <li><Link to='/Vistoria'>Vistoria</Link></li>
-                    <li><Link to='/ValidacaoDaVistoria'>Validação da vistoria</Link></li>
+                    <li><Link to='/simulacao/identificacao'>Identificação do cliente</Link></li>
+                    <li><Link to='/simulacao/identificacao/tipodoseguro'>Tipo do Seguro</Link></li>
+                    <li><Link to='/simulacao/identificacao/tipodoseguro/vistoria'>Vistoria</Link></li>
+                    <li><Link to='/simulacao/identificacao/tipodoseguro/vistoria/validacaodavistoria'>Validação da vistoria</Link></li>
                 </ul>
             </ul>
         </>
