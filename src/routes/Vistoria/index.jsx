@@ -47,7 +47,7 @@ function Vistoria(){
             <button type="button" id="enviaVideos" onClick={enviarVideos}>Enviar</button>
             </div>
             <div>
-                <h2><Link to='/Vistoria/ValidacaoVistoria'>Próxima etapa: </Link> Conferir status de vistoria: </h2>
+                <p><Link to='/simulacao/identificacao/tipodoseguro/vistoria/validacaodavistoria'>Próxima etapa: </Link> Conferir status de vistoria: </p>
                 <p>Observação: neste momento, como ainda nào aprendemos a abrir a câmera e capturar a imagem, colocamos temporariamente a opção do formulário de pegar a foto da galeria - apenas para simulação.</p>
             </div>
         </main>

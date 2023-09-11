@@ -13,7 +13,7 @@ function Simulacao() {
 
             <p>A vistoria é composta por 5 etapas:</p>
 
-            <p><b><Link to='/Identificacao'>Primeira etapa: </Link></b>Identificação do cliente</p>
+            <p><b><Link to='/simulacao/identificacao'>Primeira etapa: </Link></b>Identificação do cliente</p>
         </>
 
     )
