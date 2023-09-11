@@ -16,4 +16,4 @@ function Simulacao() {
     )
 }
 
-export default Simulação
+export default Simulacao

@@ -1,4 +1,4 @@
-export default function ValidacaoVistoria(){
+function ValidacaoVistoria(){
     const conferir = () =>{
         alert("Sua vistoria está em análise!")
     }
@@ -17,3 +17,5 @@ export default function ValidacaoVistoria(){
         </main>
     )
 }
+
+export default ValidacaoVistoria

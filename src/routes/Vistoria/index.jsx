@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
-export default function Vistoria(){
+
+function Vistoria(){
     const enviarFotos = () =>{
         alert ("Fotos enviadas com sucesso!")
     }
@@ -53,3 +54,5 @@ export default function Vistoria(){
         </main>
     )
 }
+
+export default Vistoria
