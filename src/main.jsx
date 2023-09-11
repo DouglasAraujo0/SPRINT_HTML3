@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
-import Error from './routes/Error/index.jsx'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import Error from './routes/Error/index.jsx'
 import Home from './routes/Home/index.jsx'
 import TotalmenteVirtual from './routes/TotalmenteVirtual/index.jsx'
 import Detalhes from './routes/Detalhes/index.jsx'
@@ -19,40 +19,40 @@ const router = createBrowserRouter([
     path: '/',
     element: <App/>,
     errorElement: <Error/>,
-    children: [
+    children:[
       {
         path: '/',
         element: <Home/>
       },
       {
-        path: '/TotalmenteVirtual',
+        path: '/totalmentevirtual',
         element: <TotalmenteVirtual/>
       },
       {
-        path: '/Detalhes',
+        path: '/detalhes',
         element: <Detalhes/>
       },
       {
-        path: '/Simulacao',
+        path: '/simulacao',
         element: <Simulacao/>
       },
       {
-        path: '/Simulacao/TipoDoSeguro',
+        path: '/simulacao/tipodoseguro',
         element: <TipoDoSeguro/>
       },
       {
-        path: '/Simulacao/TipoDoSeguro/Vistoria',
+        path: '/simulacao/tipodoseguro/vistoria',
         element: <Vistoria/>
       },
       {
-        path: '/Simulacao/TipoDoSeguro/Vistoria/ValidacaoVistoria',
+        path: '/simulacao/tipodoseguro/vistoria/validacaodavistoria',
         element: <ValidacaoVistoria/>
       },
       {
-        path: '/Integrantes',
+        path: '/integrantes',
         element: <Integrantes/>
-      },
-    ],
+      }
+    ]
   }
 ])
 
