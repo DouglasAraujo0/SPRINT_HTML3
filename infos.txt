@@ -1,0 +1,11 @@
+Integrantes:
+Douglas Magalhães de Araujo - 552208
+Gustavo Argüello Bertacci - 551304
+Igor Ribeiro Anccilotto - 550415
+Luiz Fillipe Farias - 99519
+Rafaella Monique do Carmo Bastos - 552425
+
+Link do repositório no GitHub: 
+https://github.com/DouglasAraujo0/SPRINT_HTML3.git
+
+Link do repositório no Vercel:
