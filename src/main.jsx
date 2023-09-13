@@ -40,19 +40,18 @@ const router = createBrowserRouter([
       },
       {
         path: '/simulacao/identificacao',
-        element: <IdentificarClientes/>
-        
+        element: <Identificacao/>
       },
       {
-        path: '/simulacao/identificacao/tipodoseguro',
+        path: '/simulacao/identificarclientes/tipodoseguro',
         element: <TipoDoSeguro/>
       },
       {
-        path: '/simulacao/identificacao/tipodoseguro/vistoria',
+        path: '/simulacao/identificarclientes/tipodoseguro/vistoria',
         element: <Vistoria/>
       },
       {
-        path: '/simulacao/identificacao/tipodoseguro/vistoria/validacaodavistoria',
+        path: '/simulacao/identificarclientes/tipodoseguro/vistoria/validacaodavistoria',
         element: <ValidacaoVistoria/>
       },
       {
@@ -62,7 +61,12 @@ const router = createBrowserRouter([
       {
         path: '/organograma',
         element: <Organograma/>
+      },
+      {
+        path: '/IdentificarClientes',
+        element: <IdentificarClientes/>
       }
+      
     ]
   }
 ])
