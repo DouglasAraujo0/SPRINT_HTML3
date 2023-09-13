@@ -7,6 +7,7 @@ function IdentificarClientes () {
             <h1>Identificar clientes</h1>
             <p>Para identificação, coloque seu CPF abaixo:</p>
             <input type="text" id = "EnviarCPF" placeholder = "Digite aqui:"/>
+            <p>Clique aqui para enviar</p>
             <button id = "EnviarCPF" onClick={enviarCpf}>enviar</button> 
         </main>
     )

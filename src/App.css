@@ -3,8 +3,9 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  text-decoration: none;
 }
-
+/* 
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -16,7 +17,7 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-}
+} */
 
 @keyframes logo-spin {
   from {
@@ -40,3 +41,68 @@
 .read-the-docs {
   color: #888;
 }
+*{
+  text-decoration: none;
+  
+}
+h1{
+  background-color: #3664C1;
+  fill: #3664C1;
+stroke-width: 1px;
+stroke: #000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+body{
+  background: #FCF1D7;
+}
+p{
+  border: 1px solid #000;
+background: #8099D9;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+footer{
+  background-color: #92b6ff;
+  color: #FFF;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+h2{
+  background-color: #3664C1;
+  fill: #3664C1;
+stroke-width: 1px;
+stroke: #000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+li{
+  width: 212px;
+height: 58px;
+flex-shrink: 0;
+background-color: #8099D9;
+color: #000;
+font-family: Sansation;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+stroke-width: 1px;
+stroke: #000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+h3{
+  background-color: #3664C1;
+  fill: #3664C1;
+stroke-width: 1px;
+stroke: #000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+img{
+  width: 314px;
+height: 214px;
+flex-shrink: 0;
+}
+

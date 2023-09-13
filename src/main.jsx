@@ -9,7 +9,6 @@ import Home from './routes/Home/index.jsx'
 import TotalmenteVirtual from './routes/TotalmenteVirtual/index.jsx'
 import Detalhes from './routes/Detalhes/index.jsx'
 import Simulacao from './routes/Simulacao/index.jsx'
-import Identificacao from './routes/Identificacao/index.jsx'
 import TipoDoSeguro from './routes/TipoDoSeguro/index.jsx'
 import Vistoria from './routes/Vistoria/index.jsx'
 import ValidacaoVistoria from './routes/ValidacaoVistoria/index.jsx'
@@ -41,7 +40,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/simulacao/identificacao',
-        element: <Identificacao/>
+        element: <IdentificarClientes/>
+        
       },
       {
         path: '/simulacao/identificacao/tipodoseguro',
@@ -62,12 +62,7 @@ const router = createBrowserRouter([
       {
         path: '/organograma',
         element: <Organograma/>
-      },
-      {
-        path: '/IdentificarClientes',
-        element: <IdentificarClientes/>
       }
-      
     ]
   }
 ])

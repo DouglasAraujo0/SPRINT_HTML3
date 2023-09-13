@@ -5,8 +5,8 @@ export default function Rodape() {
     return(
         <>
             <footer>
-                <nav>
-                    <b>Confira mais:</b>
+                <nav id='Rodape'>
+                    <b>Confira mais: </b>
                     <Link to='/detalhes'>Detalhes da solução</Link>
                     <span> | </span>
                     <Link to='/totalmentevirtual'>Totalmente Virtual</Link>
