@@ -9,7 +9,6 @@ import Home from './routes/Home/index.jsx'
 import TotalmenteVirtual from './routes/TotalmenteVirtual/index.jsx'
 import Detalhes from './routes/Detalhes/index.jsx'
 import Simulacao from './routes/Simulacao/index.jsx'
-import Identificacao from './routes/Identificacao/index.jsx'
 import TipoDoSeguro from './routes/TipoDoSeguro/index.jsx'
 import Vistoria from './routes/Vistoria/index.jsx'
 import ValidacaoVistoria from './routes/ValidacaoVistoria/index.jsx'
@@ -40,19 +39,19 @@ const router = createBrowserRouter([
         element: <Simulacao/>
       },
       {
-        path: '/simulacao/identificacao',
-        element: <Identificacao/>
+        path: '/simulacao/identificarclientes',
+        element: <IdentificarClientes/>
       },
       {
-        path: '/simulacao/identificacao/tipodoseguro',
+        path: '/simulacao/identificarclientes/tipodoseguro',
         element: <TipoDoSeguro/>
       },
       {
-        path: '/simulacao/identificacao/tipodoseguro/vistoria',
+        path: '/simulacao/identificarclientes/tipodoseguro/vistoria',
         element: <Vistoria/>
       },
       {
-        path: '/simulacao/identificacao/tipodoseguro/vistoria/validacaodavistoria',
+        path: '/simulacao/identificarclientes/tipodoseguro/vistoria/validacaodavistoria',
         element: <ValidacaoVistoria/>
       },
       {
@@ -62,12 +61,7 @@ const router = createBrowserRouter([
       {
         path: '/organograma',
         element: <Organograma/>
-      },
-      {
-        path: '/IdentificarClientes',
-        element: <IdentificarClientes/>
-      }
-      
+      },      
     ]
   }
 ])
