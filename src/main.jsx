@@ -39,8 +39,8 @@ const router = createBrowserRouter([
         element: <Simulacao/>
       },
       {
-        path: '/simulacao/identificacao',
-        element: <Identificacao/>
+        path: '/simulacao/IdentificarClientes',
+        element: <IdentificarClientes/>
       },
       {
         path: '/simulacao/identificarclientes/tipodoseguro',
