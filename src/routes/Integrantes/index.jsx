@@ -1,8 +1,6 @@
 function Integrantes() {
     return(
         <>
-            <h1>Technobike</h1>
-
             <h2>Integrantes</h2>
 
             <ul>

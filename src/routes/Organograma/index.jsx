@@ -12,27 +12,35 @@ import { Link } from 'react-router-dom'
 function Organograma(){
     return(
         <main>
-             <h1>Technobike</h1>
             <h2>Organograma</h2>
             <p>Segue abaixo o organograma das páginas presentes nesse HTML: </p>
+            
             <p>Detalhes</p>
             <Link to={'/detalhes'}><img src={pagina1} alt="Página 1" /></Link>
+            
             <p>Totalmente Virtual</p>
-            <Link to={'/totalmentevirtual'}><img src={pagina2} alt="Página 2" /></Link>
+            <Link to={'/totalmentevirtual'}><img src={pagina2} alt="Página 2"/></Link>
+            
             <p>Simulação</p>
-            <Link to={'/simulacao'}><img src={pagina3} alt="Página 3" /></Link>
+            <Link to={'/simulacao'}><img src={pagina3} alt="Página 3"/></Link>
+            
             <p>Identificação do cliente</p>
-            <Link to={'/simulacao/identificacao'}><img src={pagina3_1} alt="Página 3.1" /></Link>
+            <Link to={'/simulacao/identificacao'}><img src={pagina3_1} alt="Página 3.1"/></Link>
+            
             <p>Tipo de Seguro</p>
-            <Link to={'/simulacao/identificacao/tipodoseguro'}><img src={pagina3_2} alt="Página 3.2" /></Link>
+            <Link to={'/simulacao/identificacao/tipodoseguro'}><img src={pagina3_2} alt="Página 3.2"/></Link>
+            
             <p>Vistoria</p>
-            <Link to={'/simulacao/identificacao/tipodoseguro/vistoria'}><img src={pagina3_3} alt="Página 3.3" /></Link>
+            <Link to={'/simulacao/identificacao/tipodoseguro/vistoria'}><img src={pagina3_3} alt="Página 3.3"/></Link>
+            
             <p>Validação da Vistoria</p>
-            <Link to={'/simulacao/identificacao/tipodoseguro/vistoria/validacaovistoria'}><img src={pagina3_4} alt="Página 3.4" /></Link>
+            <Link to={'/simulacao/identificacao/tipodoseguro/vistoria/validacaovistoria'}><img src={pagina3_4} alt="Página 3.4"/></Link>
+            
             <p>Organograma</p>
-            <Link to={'/organograma'}><img src={pagina4} alt="Página 4" /></Link>
+            <Link to={'/organograma'}><img src={pagina4} alt="Página 4"/></Link>
+            
             <p>Integrantes</p>
-            <Link to={'/integrantes'}><img src={pagina5} alt="Página 5" /></Link>
+            <Link to={'/integrantes'}><img src={pagina5} alt="Página 5"/></Link>
         </main>
     )
 }
